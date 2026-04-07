@@ -138,7 +138,7 @@ python kickstarter_monitor_test400.py
 | `webdriver-manager` | Auto-downloads the correct ChromeDriver for your Chrome version |
 
 ```bash
-pip install selenium webdriver-manager
+python -m pip install selenium webdriver-manager
 ```
 
 ---
