@@ -3,7 +3,7 @@ Kickstarter Pledge Availability Monitor &amp; Auto-Clicker
 # Kickstarter Auto-Pledge Monitor
 
 Automated Selenium scripts that monitor a Kickstarter reward tier and auto-pledge the moment a slot opens up.
-
+(assisted by Claude Opus-4-6)
 ---
 
 ## What This Project Does
