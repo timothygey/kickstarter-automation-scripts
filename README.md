@@ -126,6 +126,7 @@ python kickstarter_monitor_test400.py
 ```
 
 > **Tip:** Use the test scripts first to verify the pledge flow works end-to-end before relying on the production monitors.
+> Only play around with SCROLL_INTERVAL, set it at a min of 3 seconds.
 
 ---
 
