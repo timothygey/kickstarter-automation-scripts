@@ -95,8 +95,8 @@ BROWSER_OPEN_MINUTES_EARLY = 5
 
 # Email notification settings (for Cloudflare detection alerts)
 EMAIL_ENABLED = True
-EMAIL_FROM = "tim13aq3dmain@gmail.com"
-EMAIL_TO = "tim13aq3dmain@gmail.com"
+EMAIL_FROM = <insert your gmail>
+EMAIL_TO = <insert your gmail>
 EMAIL_APP_PASSWORD = "jsrt bwfz orjh dson"
 EMAIL_SMTP_SERVER = "smtp.gmail.com"
 EMAIL_SMTP_PORT = 587
