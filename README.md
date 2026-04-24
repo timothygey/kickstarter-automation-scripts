@@ -90,7 +90,30 @@ Targets the **"Benevolent Founder"** tier at **$400** (unlimited slots). Structu
 
 ## Usage
 
-### Install dependencies first
+### Step 1 — Create and activate a virtual environment first
+
+> ⚠️ **Do not skip this step.** Running `pip install` without an active venv installs packages into your **global system Python**, polluting it for all other projects on your machine.
+
+```powershell
+# Navigate to the project folder
+cd C:\Users\timmy\Desktop\Coding\kickstarter-automation-scripts
+
+# Create a venv
+python -m venv venv
+
+# Activate it (Windows PowerShell)
+.\venv\Scripts\Activate.ps1
+
+# You should see (venv) in your prompt before proceeding
+```
+
+> **First-time PowerShell users:** If you get a script execution error, open PowerShell as Administrator and run once:
+> ```powershell
+> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+> ```
+> Then activate again.
+
+### Step 2 — Install dependencies
 
 ```bash
 python -m pip install selenium webdriver-manager
