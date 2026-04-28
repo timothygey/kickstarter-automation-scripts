@@ -70,7 +70,7 @@ Targets the **"Benevolent Founder"** tier at **$400** (unlimited slots). Structu
 
 ## Quick Comparison Table
 
-| Feature | `kickstarter_monitor.py` | `kickstarter_monitor_500.py` | `kickstarter_monitor_test250.py` | `kickstarter_monitor_test400.py` |
+| Feature | `kickstarter_monitor_1500.py` | `kickstarter_monitor_500.py` | `kickstarter_monitor_test250.py` | `kickstarter_monitor_test400.py` |
 |---|---|---|---|---|
 | **Type** | Production | Production | Test | Test |
 | **Tier** | Custom Armor Set Designer | Custom Weapon Designer | Immortalized Founder | Benevolent Founder |
