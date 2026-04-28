@@ -14,7 +14,7 @@ These scripts watch the **AdventureQuest Worlds Infinity** Kickstarter project (
 
 ## The Scripts
 
-### 1. `kickstarter_monitor.py` — Production Monitor ($1,500 Tier)
+### 1. `kickstarter_monitor_1500.py` — Production Monitor ($1,500 Tier)
 
 Monitors the **"Custom Armor Set Designer"** tier at **$1,500** (30 limited slots). This is the full-featured production script with Cloudflare detection, error popup handling with 3× retry, scheduled start, email alerts, and sound alerts. Polls every 7 seconds. Note: the tier name is hardcoded in XPath strings rather than a config variable.
 
@@ -124,13 +124,13 @@ python -m pip show selenium
 
 ```bash
 # Use default schedule (2026-04-03 00:59:55)
-python kickstarter_monitor.py
+python kickstarter_monitor_1500.py
 
 # Start immediately
-python kickstarter_monitor.py --now
+python kickstarter_monitor_1500.py --now
 
 # Custom schedule
-python kickstarter_monitor.py --schedule "2026-04-05 12:00:00"
+python kickstarter_monitor_1500.py --schedule "2026-04-05 12:00:00"
 ```
 
 ```bash
